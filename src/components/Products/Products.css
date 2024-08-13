@@ -100,11 +100,11 @@
 }
 
 .filter-section {
-	min-width: 280px;
-	display: flex;
+	display: flex; /* Visible on all devices */
 	flex-direction: column;
 	gap: 28px;
 	justify-content: flex-start;
+	min-width: 280px;
 	padding-bottom: 24px;
 }
 
@@ -250,10 +250,6 @@ hr {
 
 	.filter-text {
 		display: block;
-	}
-
-	.mobile {
-		display: none;
 	}
 
 	.sort-button p {

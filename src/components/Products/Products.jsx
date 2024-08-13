@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const ProductPage = () => {
   const [products, setProducts] = useState([]);
-  const [showFilter, setShowFilter] = useState(true);
+  const [showFilter, setShowFilter] = useState(false);
   const [sortOption, setSortOption] = useState("RECOMMENDED");
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
